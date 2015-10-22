@@ -1,0 +1,10 @@
+extends layout
+block content
+	div
+		label ID:
+		span=user.id
+	div
+		label Username:
+		span=user.username
+
+	a(href="/logout") Log out
